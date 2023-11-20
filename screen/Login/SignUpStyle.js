@@ -1,0 +1,153 @@
+import {Dimensions, StyleSheet} from 'react-native';
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    alignItems: 'center',
+    // justifyContent: 'center',
+  },
+  signupHeaderText: {
+    fontFamily: 'Roboto-Regular',
+    fontSize: 23,
+    marginTop: windowHeight * 0.1,
+    color: '#fff',
+  },
+  signupView: {
+    width: windowWidth * 1,
+    height: windowHeight * 0.7,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: windowWidth * 0.07
+  },
+  inputCustomContainer: {
+    // backgroundColor: 'tomato',
+    width: windowWidth * 0.7,
+    // height: windowHeight * 0.09,
+    marginBottom: 15,
+    alignSelf: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  errorMessageTextStyle: {
+    color: 'red',
+    textAlign: 'left',
+    // backgroundColor: 'gold', 
+    width: windowWidth * 0.66,
+    fontFamily: 'Roboto-Regular',
+    fontSize: 12,
+  },
+  inputCustomLogoContainer: {
+    // backgroundColor: 'tomato',
+    width: windowWidth * 0.7,
+    height: windowHeight * 0.07,
+    marginTop: 10,
+    alignSelf: 'center',
+    justifyContent: 'space-around',
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  inputCountryCustomContainer: {
+    width: windowWidth * 0.8,
+    marginTop: 2,
+  },
+  inputCustom: {
+    // backgroundColor: 'tomato',
+    borderWidth: 1,
+    borderColor: '#AAB0B7',
+    paddingLeft: 15,
+    borderRadius: 8,
+    fontFamily: 'Poppins-Regular',
+    color: '#000',
+    height: 54,
+    width: windowWidth * 0.8,
+    marginBottom: 12,
+    fontSize: 14,
+    color: '#000',
+    backgroundColor: '#fff',
+  },
+  inputCountryCustom: {
+    // backgroundColor: 'tomato',
+    color: '#000',
+    width: windowWidth * 0.4,
+    fontSize: 16,
+
+    fontFamily: 'Roboto-Regular',
+  },
+  Auth1: {
+    backgroundColor: '#3292E0',
+    borderRadius: 50,
+    width: windowWidth * 0.8,
+    height: windowHeight * 0.08,
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginTop: windowHeight * 0.02,
+    elevation: 2,
+    marginTop: windowHeight * 0.03,
+  },
+  AuthButtonText: {
+    color: '#fff',
+    fontFamily: 'Roboto-Regular',
+  },
+  agreeTermTextContainer: {
+    marginTop: 30,
+    alignSelf: 'center',
+    justifyContent: 'center',
+    alignItems: 'center',
+    // backgroundColor: 'tomato',
+    width: windowWidth * 0.7,
+    flexDirection: 'row',
+  },
+  agreeTermText: {
+    color: '#838391',
+    fontSize: 9,
+    fontFamily: 'Roboto-Regular',
+    textAlign: 'center',
+  },
+  agreeTermUSeText: {
+    color: '#3292E0',
+    fontSize: 9,
+    fontFamily: 'Roboto-Regular',
+    textAlign: 'center',
+  },
+  phoneContainer: {
+    // width: '75%',
+    width: windowWidth * 0.83,
+    height: 50,
+    backgroundColor: '#fff',
+    flexDirection: 'row',
+    marginBottom: 12,
+    alignItems: 'center',
+    gap: 5,
+    color: '#000',
+    backgroundColor: 'transparent',
+  },
+  textInput: {
+    backgroundColor: 'transparent',
+    padding: 0,
+    // backgroundColor: 'gold',
+    width: windowWidth * 0.6,
+    color: '#000',
+    fontFamily: 'Poppins-Regular',
+    fontSize: 14,
+  },
+  codeTextStyle: {
+    fontFamily: 'Roboto-Regular',
+    fontSize: 15,
+    // backgroundColor: 'gold',
+    // width: windowWidth * 0.1,
+    textAlign: 'center',
+    textAlignVertical: 'center',
+  },
+  countryPickerButtonStyle: {
+    // backgroundColor: 'gold',
+    width: 70,
+  },
+  textInputStyle: {
+    fontFamily: 'Roboto-Regular',
+    color: '#000',
+  },
+});
+
+export default styles;
